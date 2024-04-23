@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    background-size: cover;
+}
+img{
+    margin-top: 20px;
+    height: 30%;
+    border-radius: 100%;
+    border-color: white;
+    border-style: double;
+    border-width: 10px;
+}
+.info{
+    background-color: pink;
+    border-radius: 30px;
+}
+.hi{
+    font-size: 60px;
+    font-family: GOUDY STOUT;
+    color: white;
+}
+.contact{
+    background-color: lavender;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+.ct{
+    font-size: 60px;
+    margin-top: 30px;
+}
+.insta{
+    border-radius: 100%;
+    border-style: dotted;
+    border-color: white;
+    border-width: 20px;
+    background-color: lavender;
+    text-align: center;
+}
+img{
+    height:250px;
+    margin-bottom: 10px;
+}
+.whats{
+    margin-left: 30px;
+    border-radius: 100%;
+    border-style: dotted;
+    border-color: white;
+    border-width: 20px;
+    background-color: lavender;
+    text-align: center;
+}
+.img2{
+    height:250px;
+    width: 300px;
+}
+.wish{
+    background-color: rgb(255, 234, 99);
+    font-size: 59px;
+    font-family: algerian;
+    border-radius: 30px;
+}
+button{
+    font-size:30px;
+        border-radius: 100%;
+        color: white;
+        font-family: stencil;
+        margin-top:5%;
+        
+    }
+    a{
+        color: black;
+    }
+    .back{
+        height:100px;
+    
+    }

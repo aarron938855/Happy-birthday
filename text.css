@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+div{
+    background-color: lavender;
+    height:225%;
+    width: 100%;
+    font-size:90px;
+    border-radius: 50px;
+}
+.btn1{
+    font-size:30px;
+        border-radius: 100%;
+        color: white;
+        font-family: stencil;
+        margin-right:80%;
+        margin-top:5%;
+        
+    }
+.aa1{
+        color: black;
+    }
+.back{
+        height:100px;
+    
+    }
+
+    .btn2{
+        margin-bottom: 30px;
+        font-size:60px;
+        margin-left: 27px;
+        border-radius: 20px;
+        border-color: rgb(255, 255, 255);
+        border-width: 5px;
+        border-style:dotted;
+        color: rgb(255, 255, 255);
+        font-family: stencil;
+        background-image: url(mem.jpg);
+    }
+    .aa2{
+        color: white;
+    }    
+    .cake{
+        height: 15%;
+        margin-top:90px;
+    }

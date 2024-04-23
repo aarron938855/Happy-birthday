@@ -1,0 +1,62 @@
+body{
+    background-image: url(mem.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.all{
+    height:30%;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 10px;
+    border-style: dashed;
+}
+.images{
+    height:25%;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 10px;
+    border-style: dashed;
+}
+.images2{
+    height:28.5%;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 10px;
+    border-style: dashed;
+}
+.images3{
+    height:35%;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 10px;
+    border-style: dashed;
+}
+button{
+font-size:30px;
+    border-radius: 100%;
+    color: white;
+    font-family: stencil;
+    margin-right:80%;
+    margin-top:5%;
+    
+}
+a{
+    color: black;
+}
+.back{
+    height:100px;
+
+}
+.talk{
+    border-radius:50px;
+    width:50%;
+    height: 10%;
+    font-family:impact;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: pink;
+    border-style: dashed;
+    border-width: 20px;
+    margin-bottom: 30px;
+    margin-left: 24%;
+}

@@ -1,0 +1,94 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: pink;
+    overflow: hidden;
+    font-family: forte;
+}
+.giftbox{
+    position: relative;
+}
+.gift{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url("img1.JPG");
+    border-radius: 20px;
+    border-top-left-radius:0 ;
+    border-top-right-radius:0 ;
+    border-color:  rgb(255, 255, 255);
+    border-width: 10px;
+    border-style:groove;
+    background-size: cover;
+}
+
+#click{
+    display: none;
+}
+.click{
+    position: absolute;
+    background-color:rgb(255, 220, 94);
+    width: 380px;
+    height:120px;
+    top: -100px;
+    left: -47px;
+    transform-origin: bottom left;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 20px;
+    background-image: url("img1.JPG");
+    border-color:  rgb(255, 255, 255);
+    border-style: groove;
+    border-width: 10px;
+    
+}
+.click::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 0px;
+    border-bottom: 60px solid rgb(255, 220, 94);
+    border-top: 60px solid rgb(255, 220, 94);
+    border-left: 60px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(-90deg);
+    left: 150px;
+    top: -60px;
+}
+#click:checked+.click{
+    transform: rotate(-110deg) scale(0.85);
+}
+#click:checked+.wishes{
+    transform: translateY(-120px);
+}
+.wishes{
+    position: inherit;
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    z-index: -1;
+    left: 0px;
+    bottom:310px;
+    color: white;
+    text-shadow: 0 0 10px #000000;
+}
+.all{
+    align-items: center;
+}
+button{
+    margin-top: 780px;
+    font-size:60px;
+    margin-left: 27px;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-style:dotted;
+    color: rgb(255, 255, 255);
+    font-family: stencil;
+    background-image: url(mem.jpg);
+}
+a{
+    color: white;
+}
